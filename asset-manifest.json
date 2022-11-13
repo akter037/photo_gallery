@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/photo_gallery/static/css/main.3fa783e3.css",
+    "main.js": "/photo_gallery/static/js/main.8f7d7bea.js",
+    "static/media/night-view.jpg": "/photo_gallery/static/media/night-view.dd2bbc2271ae97195f02.jpg",
+    "static/media/logo.png": "/photo_gallery/static/media/logo.7c21b4fd00223dbd8c41.png",
+    "index.html": "/photo_gallery/index.html",
+    "main.3fa783e3.css.map": "/photo_gallery/static/css/main.3fa783e3.css.map",
+    "main.8f7d7bea.js.map": "/photo_gallery/static/js/main.8f7d7bea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fa783e3.css",
+    "static/js/main.8f7d7bea.js"
+  ]
+}
