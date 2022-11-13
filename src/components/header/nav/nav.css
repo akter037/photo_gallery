@@ -50,7 +50,10 @@
   }
 
 @media screen and (max-width:600px) {
-    
+    .nav_container{
+        width: 95%;
+        justify-content: start;
+    }
     .mb_display{
        display: none;
 
@@ -60,7 +63,7 @@
        display: flex;
        list-style: none;
        background: rgba(0, 0, 0, .9);
-       right: 0;
+       left: 0;
        top:4rem;
        transition: all 0.5s ease-out;
        flex-direction: column;
@@ -69,12 +72,20 @@
        z-index: 20; 
       
     }
+    .pc_display li{
+     line-height: 2.3rem;
+   
+    }
+    .pc_display li:hover{
+        background-color: aqua;
+       }
     .pc_display a{
        color: rgb(255, 254, 254);
-        
+         margin: 1rem;
          position: relative;  
          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-         font-weight:bold;   
+         font-weight:bold; 
+         font-size: 20px;  
                
         }
         .mobile-menu-icon{
@@ -84,8 +95,12 @@
            background: transparent;
            border: none;
            outline: none;
-           top: 20px;
-           right: 25px;
+           top: 25px;
+         
+        }
+       
+        .nav_logo{
+            margin-left: 2.5rem;
         }
        
      }

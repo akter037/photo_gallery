@@ -14,6 +14,17 @@ const Nav = () => {
     <div id='nav' className='bg_nav'>
       
       <div className="container nav_container">
+
+      
+      <button  className='mobile-menu-icon' 
+      onClick={() => setIsMobile(!isMobile)}>
+    {isMobile ?(<ImCross size={20}/>
+    
+    ):(
+    <ImMenu size={25}/>
+    )}
+     </button>
+     
        
        <div className="nav_logo">
             <img src={Logo} alt="" />
@@ -32,14 +43,7 @@ const Nav = () => {
           
         </ul>
        </div>
-       <button  className='mobile-menu-icon' 
-      onClick={() => setIsMobile(!isMobile)}>
-    {isMobile ?(<ImCross size={20}/>
-    
-    ):(
-    <ImMenu size={25}/>
-    )}
-     </button>
+       
 
 
       </div>
