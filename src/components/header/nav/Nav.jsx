@@ -36,7 +36,7 @@ const Nav = () => {
         <ul>
           <li><a href="#" onClick={()=> setActiveNav('#')} className={activeNav=== '#'? 'active':' '}>Home</a></li>
           <li><a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav=== '#about'? 'active':' '}>About</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="https://akter037.github.io/myportfolio/" target="_blank">Portfolio</a></li>
           <li><a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav=== '#services'? 'active':' '}>Services</a></li>
           <li><a href="#testimonials" onClick={()=> setActiveNav('#testimonials')} className={activeNav=== '#testimonials'? 'active':' '}>Journal</a></li>
           <li><a href="#contact"  onClick={()=> setActiveNav('#contact')} className={activeNav=== '#contact'? 'active':' '}>Contact</a></li>
