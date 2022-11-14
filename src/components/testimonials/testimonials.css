@@ -1,0 +1,117 @@
+.test_container{
+    padding: 2rem;
+    
+}
+.test_container h2{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    color: rgb(75, 74, 74);
+   width: 480px;
+    position: relative;
+}
+.test_container h2::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background:rgb(20, 19, 19) ;
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+}
+.test_container h2::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background:rgb(20, 19, 19) ;
+    position: absolute;
+    right:  0;
+    top: 50%;
+
+}
+.test_container h3{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.test_container p{
+    margin-top: 0;
+}
+
+.read{
+    padding: 0 .5rem 1rem 1rem;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.test_container a{
+    color: #000;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(21, 21, 21);
+    
+}
+.read button{
+  cursor: pointer;
+    background:none;
+   
+    margin-left: 5px;
+  
+}
+.counter_div{
+    display: flex;
+}
+.counter_div h3{
+    margin: 0;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width:1024px) {
+  
+    .read{
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .test_container h2{
+        
+       width: 90%;
+      
+        font-size: 18px;
+       
+    }
+    .test_container h2::before{
+      
+        width: 22px;
+        height: 2px;
+       
+    
+    }
+    .test_container h2::after{
+      
+        width: 22px;
+        height: 2px;
+       
+    
+    }
+    .images{
+        
+        padding: 1rem 0 1rem 0; 
+        
+    }
+    .read{
+
+        width: 95%;
+    }
+    
+  
+  }

@@ -8,7 +8,7 @@ const Gallery = () => {
    <section id='gallery' >
 
     <div className="gallery_container">
-   <h2>LATEST INSTAGRAM SHOTS </h2>
+    <h2>LATEST INSTAGRAM SHOTS </h2>
 
    <div className='images'>
    <div className="image_gallery">
