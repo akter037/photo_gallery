@@ -21,7 +21,7 @@
 article{
     display: grid;
     grid-template-columns: repeat(3,30%);
-    gap: 2%;
+    gap: 5%;
     overflow: hidden;
 }
 .service{
